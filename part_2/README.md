@@ -1,4 +1,4 @@
-Solution:
+# Solution:
 The following database schema is designed based on the given requirements for an
 inventory management platform.
 Considering following point:
@@ -9,7 +9,7 @@ Considering following point:
 5) Inventory level changes must be tracked; therefore, an Inventory History table is needed.
 6) Some products may be bundles composed of other products, which requires a Product Composition table.
 
-Main Entities
+# Main Entities
 The following entities are required for the system:
 •  Companies 
 •  Warehouses 
@@ -20,14 +20,14 @@ The following entities are required for the system:
 •  Product Compositions (Bundles)
 
 
-Relationship 
+# Relationship 
 •	Company → Warehouses
 •	Product ↔ Warehouse (via Inventory)
 •	Supplier ↔ Product
 •	Inventory History
 •	Product Bundles
 
- Tables
+# Tables
 •	Companies
 •	Warehouse 
 •	Product
@@ -37,7 +37,7 @@ Relationship
 •	Supplier Product
 •	Product Bundles
 
-Indexes
+# Indexes
 
 Products ->	Index on sku
 Inventory->	Index on product_id
