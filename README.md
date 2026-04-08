@@ -6,7 +6,7 @@ Each part includes the implementation code, while the detailed explanation of th
 
 The repository is structured to clearly separate the analysis, design, and implementation steps for each part of the case study.
 
-# Repository Structure
+## Repository Structure
 .
 ├── part_1
 │   └── main.py
