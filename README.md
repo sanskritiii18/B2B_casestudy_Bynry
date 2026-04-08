@@ -19,7 +19,7 @@ The repository is structured to clearly separate the analysis, design, and imple
 │   └── main.py
 │
 └── README.md
-
+##
 # Part 1 – Code Analysis and Debugging
 
 For Part 1, the workflow analysis, debugging approach, and explanation of the issues in the provided code are described in detail in the Word document.
