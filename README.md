@@ -7,6 +7,8 @@ Each part includes the implementation code, while the detailed explanation of th
 The repository is structured to clearly separate the analysis, design, and implementation steps for each part of the case study.
 
 ## Repository Structure
+
+```text
 .
 ├── part_1
 │   └── main.py
@@ -19,7 +21,8 @@ The repository is structured to clearly separate the analysis, design, and imple
 │   └── main.py
 │
 └── README.md
-##
+```
+
 # Part 1 – Code Analysis and Debugging
 
 For Part 1, the workflow analysis, debugging approach, and explanation of the issues in the provided code are described in detail in the Word document.
