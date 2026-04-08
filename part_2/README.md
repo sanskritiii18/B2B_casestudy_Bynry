@@ -38,12 +38,12 @@ Relationship
 •	Product Bundles
 
 Indexes
-Table	          ||   Index
-Products          ||	Index on sku
-Inventory         ||	Index on product_id
-Inventory         ||	Index on warehouse_id
-Supplier_Products ||	Index on supplier_id
-Inventory_History ||	Index on product_id
+
+Products ->	Index on sku
+Inventory->	Index on product_id
+Inventory->	Index on warehouse_id
+Supplier_Products->	Index on supplier_id
+Inventory_History->	Index on product_id
 
 
 # Design Decisions
